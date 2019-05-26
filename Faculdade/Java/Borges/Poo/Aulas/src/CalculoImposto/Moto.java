@@ -10,7 +10,7 @@ import javax.swing.JOptionPane;
 
 /**
  *
- * @author diego
+ * @author ariel
  */
 public class Moto extends Automotor {
 
@@ -33,11 +33,11 @@ public class Moto extends Automotor {
         double imp = calcularImposto();
         mensagem =  "========= VEÍCULO DO TIPO MOTO CADASTRADO COM SUCESSO ========="
                  + "\n\n---------------------- DADOS CADASTRADOS ----------------------"
-                + "\n\nAno de Fabricação: " + this.anoFabricacao 
-                + "\nModelo: " + this.modelo 
+                + "\n\nAno de Fabricação: " + this.anoFabricacao
+                + "\nModelo: " + this.modelo
                 + "\nMarca: " + this.marca
-                + "\nValor de mercado: " + this.valorMercado 
-                + "\nPlaca: " + this.placa 
+                + "\nValor de mercado: " + this.valorMercado
+                + "\nPlaca: " + this.placa
                 + "\nValor do imposto: R$" + imp;
 
         JOptionPane.showMessageDialog(null, mensagem);

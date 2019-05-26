@@ -9,7 +9,7 @@ import javax.swing.JOptionPane;
 
 /**
  *
- * @author diego
+ * @author ariel
  */
 public class Carro extends Automotor {
 
@@ -30,7 +30,7 @@ public class Carro extends Automotor {
     public double calcularImposto() {
 
         double imposto = 0;
-        
+
         if (super.ano - super.anoFabricacao < 20) {
             if (tipoCombustivel == 2 || tipoCombustivel == 3 || tipoCombustivel == 5) {
                 imposto = valorMercado * 0.04;
@@ -43,19 +43,19 @@ public class Carro extends Automotor {
 
         return imposto;
     }
-    
+
     public String imprimir() {
         double imp = calcularImposto();
         mensagem = "========= VEÍCULO DO TIPO CARRO CADASTRADO COM SUCESSO ========="
                 + "\n\n---------------------- DADOS CADASTRADOS ----------------------"
-                + "\n\nAno de Fabricação: " + this.anoFabricacao 
-                + "\nModelo: " + this.modelo 
-                + "\nMarca: " + this.marca 
-                + "\nValor de mercado: " + this.valorMercado 
-                + "\nPlaca: " + this.placa 
+                + "\n\nAno de Fabricação: " + this.anoFabricacao
+                + "\nModelo: " + this.modelo
+                + "\nMarca: " + this.marca
+                + "\nValor de mercado: " + this.valorMercado
+                + "\nPlaca: " + this.placa
                 + "\nTipo de Combustível: " + (this.tipoCombustivel==1?"Álcool":
                 (this.tipoCombustivel==2?"Gasolina":(this.tipoCombustivel==3?"Flex":
-                (this.tipoCombustivel==3?"Flex":(this.tipoCombustivel==4?"GNV":"Diesel"))))) 
+                (this.tipoCombustivel==3?"Flex":(this.tipoCombustivel==4?"GNV":"Diesel")))))
                 + "\nValor do imposto: R$" + imp;
 
        JOptionPane.showMessageDialog(null, mensagem);

@@ -10,7 +10,7 @@ import javax.swing.JOptionPane;
 
 /**
  *
- * @author diego
+ * @author ariel
  */
 public class Principal {
 
@@ -27,9 +27,9 @@ public class Principal {
                         "Deseja cadastrar mais algum veículo?"
                         + "\n\nDigite 1 para sim"
                         + "\nDigite 2 para outras opções"));
-                
+
             } while (opcao == 1);
-        
+
                 opcao2 = Integer.parseInt(JOptionPane.showInputDialog(null,
                         "Digite o número referente a opção desejada"
                         + "\n1 - Listar Carros"
