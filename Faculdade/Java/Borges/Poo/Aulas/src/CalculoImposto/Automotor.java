@@ -36,13 +36,13 @@ public abstract class Automotor {
         this.valorMercado = valorMercado;
     }
 
-    /*public Automotor(int anoFabricacao, String modelo, String marca, double valorMercado, String placa) {
+    public Automotor(int anoFabricacao, String modelo, String marca, double valorMercado, String placa) {
         this.anoFabricacao = anoFabricacao;
         this.modelo = modelo;
         this.marca = marca;
         this.valorMercado = valorMercado;
         this.placa = placa;
-    }*/
+    }
     public abstract double calcularImposto();
 
     public String imprimir(String mensagem) {

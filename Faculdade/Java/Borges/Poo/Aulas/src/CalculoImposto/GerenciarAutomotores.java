@@ -11,7 +11,7 @@ import javax.swing.JOptionPane;
 
 /**
  *
- * @author diego
+ * @author ariel
  */
 public class GerenciarAutomotores {
 

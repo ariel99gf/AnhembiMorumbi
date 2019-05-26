@@ -9,7 +9,7 @@ import javax.swing.JOptionPane;
 
 /**
  *
- * @author diego
+ * @author ariel
  */
 public class Picape extends Automotor {
 
@@ -18,7 +18,7 @@ public class Picape extends Automotor {
     public Picape() {
     }
 
-    public Picape(int anoFabricacao, String modelo, String marca, 
+    public Picape(int anoFabricacao, String modelo, String marca,
             double valorMercado, String placa, int tipoCabine){
         this.anoFabricacao = anoFabricacao;
         this.modelo = modelo;
@@ -27,7 +27,7 @@ public class Picape extends Automotor {
         this.placa = placa;
         this.tipoCabine = tipoCabine;
     }
-    
+
     @Override
     public double calcularImposto() {
         double imposto = 0;
@@ -49,12 +49,12 @@ public class Picape extends Automotor {
         double imp = calcularImposto();
         mensagem = "========= VEÍCULO DO TIPO PICAPE CADASTRADO COM SUCESSO ========="
                  + "\n\n---------------------- DADOS CADASTRADOS ----------------------"
-                + "\n\nAno de Fabricação: " + this.anoFabricacao 
-                + "\nModelo: " + this.modelo 
-                + "\nMarca: " + this.marca 
-                + "\nValor de mercado: " + this.valorMercado 
-                + "\nPlaca: " + this.placa 
-                + "\nTipo de cabine: " + (this.tipoCabine==1?"Simples":"Dupla") 
+                + "\n\nAno de Fabricação: " + this.anoFabricacao
+                + "\nModelo: " + this.modelo
+                + "\nMarca: " + this.marca
+                + "\nValor de mercado: " + this.valorMercado
+                + "\nPlaca: " + this.placa
+                + "\nTipo de cabine: " + (this.tipoCabine==1?"Simples":"Dupla")
                 + "\nValor do imposto: R$" + imp;
 
         JOptionPane.showMessageDialog(null, mensagem);
