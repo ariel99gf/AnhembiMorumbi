@@ -1,0 +1,56 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - CursoEmVideoCursoDeJava11Part1",
+            "request": "launch",
+            "mainClass": "aula11.CursoEmVideoCursoDeJava11Part1",
+            "projectName": "Cursos_3507b8f7"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - HelloWorld",
+            "request": "launch",
+            "mainClass": "HelloWorld",
+            "projectName": "Cursos_3507b8f7"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - HelloWorldJava",
+            "request": "launch",
+            "mainClass": "aula05.HelloWorldJava",
+            "projectName": "Cursos_3507b8f7"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - CursoEmVideoCursoDeJava04",
+            "request": "launch",
+            "mainClass": "aula04.CursoEmVideoCursoDeJava04",
+            "projectName": "Cursos_3507b8f7"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Aula03Ex02",
+            "request": "launch",
+            "mainClass": "PooAula03.Aula03Ex02"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Aula03",
+            "request": "launch",
+            "mainClass": "PooAula03.Aula03"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Exe02",
+            "request": "launch",
+            "mainClass": "aula24.labs.Exe02"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Exe03",
+            "request": "launch",
+            "mainClass": "aula24.labs.Exe03"
+        }
+    ]
+}

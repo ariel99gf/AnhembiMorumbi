@@ -1,0 +1,160 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Carro",
+            "request": "launch",
+            "mainClass": "aula05.Carro",
+            "projectName": "Faculdade_b69ff43d"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - LampadaDemo",
+            "request": "launch",
+            "mainClass": "ListaDeExerciciosII.LampadaDemo",
+            "projectName": "Faculdade_b69ff43d"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - CalculadoraDemo",
+            "request": "launch",
+            "mainClass": "ListaDeExerciciosII.Calculadora.CalculadoraDemo",
+            "projectName": "Faculdade_b69ff43d"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Bomboniere",
+            "request": "launch",
+            "mainClass": "aula08.Bomboniere",
+            "projectName": "Faculdade_b69ff43d"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Estojo",
+            "request": "launch",
+            "mainClass": "aula07.Estojo",
+            "projectName": "Faculdade_b69ff43d"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Biblioteca",
+            "request": "launch",
+            "mainClass": "aula06.Biblioteca",
+            "projectName": "Faculdade_b69ff43d"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Aula03",
+            "request": "launch",
+            "mainClass": "aula03.Aula03",
+            "projectName": "Faculdade_b69ff43d"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Aula02ex03",
+            "request": "launch",
+            "mainClass": "aula02.Aula02ex03",
+            "projectName": "Faculdade_b69ff43d"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Aula02ex02",
+            "request": "launch",
+            "mainClass": "aula02.Aula02ex02",
+            "projectName": "Faculdade_b69ff43d"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - RepeticaoII",
+            "request": "launch",
+            "mainClass": "RepeticaoII",
+            "projectName": "Faculdade_b69ff43d"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - RepetiçãoII",
+            "request": "launch",
+            "mainClass": "RepetiçãoII",
+            "projectName": "Faculdade_b69ff43d"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - PreProvaN1",
+            "request": "launch",
+            "mainClass": "PreProvaN1",
+            "projectName": "Faculdade_b69ff43d"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - PréProvaN1",
+            "request": "launch",
+            "mainClass": "PréProvaN1",
+            "projectName": "Faculdade_b69ff43d"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - DilemaDoPrisioneiroTeste01",
+            "request": "launch",
+            "mainClass": "DilemaDoPrisioneiroTeste01",
+            "projectName": "Faculdade_b69ff43d"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - DilemaDoPrisioneiro",
+            "request": "launch",
+            "mainClass": "DilemaDoPrisioneiro",
+            "projectName": "Faculdade_b69ff43d"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - teste",
+            "request": "launch",
+            "mainClass": "teste",
+            "projectName": "Faculdade_b69ff43d"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Aula02",
+            "request": "launch",
+            "mainClass": "aula02.Aula02",
+            "projectName": "Faculdade_b69ff43d"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Aula01",
+            "request": "launch",
+            "mainClass": "aula01.Aula01",
+            "projectName": "Faculdade_b69ff43d"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - test",
+            "request": "launch",
+            "mainClass": "test",
+            "projectName": "Faculdade_b69ff43d"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - jogoDaVelha",
+            "request": "launch",
+            "mainClass": "jogoDaVelha",
+            "projectName": "Faculdade_b69ff43d"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch) - Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Principal",
+            "request": "launch",
+            "mainClass": "CalculoImposto.Principal"
+        }
+    ]
+}
